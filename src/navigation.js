@@ -13,7 +13,9 @@ const Navigation = () => {
     return (
      <NavigationContainer>
        <Stack.Navigator screenOptions={{contentStyle: {backgroundColor:'white'}}}>
-        <Stack.Screen name="Products" 
+        
+        <Stack.Screen 
+        name="Products" 
         component={ProductScreen} 
         options={({navigation}) => ({ 
         headerRight: () => ( 
